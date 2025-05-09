@@ -1,0 +1,23 @@
+#messenger {
+    /*  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);*/
+    width: 100%;
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    background: url("../images/Compressed-gif.gif") -20px -20px no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* Below is not needed */
+    display: block;
+    font-size: 80px;
+    font-family: arial;
+    text-align: center;
+    /*  margin-top: -20px;*/
+    font-weight: bold;
+    letter-spacing: 15px;
+    background-size: cover;
+}

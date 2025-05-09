@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WGH5N37NJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8WGH5N37NJ');
+    </script>
+    <link href="/immggg.png" rel="shortcut icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Shaadi Squad</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!--<link rel="stylesheet" href="css/swiper.min.css">-->
+    <link rel="stylesheet" href="css/main-hading-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="form/js/form.js"></script>
+</head>
+
+<body>
+    <!-- Start Header section -->
+    <header class="logo-menu clearfix">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <div class="navbar-brand navbar-brand-centered"><a href="/Home Page/index.html"><img src="/immggg.png" alt=""></a></div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <<div class="collapse navbar-collapse" id="navbar-brand-centered">   
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Home Page/index.html">Home</a></li>
+                        <li><a href="/About US/About Us.html">About Us</a></li>
+                        <li><a href="/Service/services.html">Services</a></li>
+                        <li><a href="/Work/our-work.html">Our Work</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Argumanted Reality/venue.html">Argumentaed Reality</a></li>
+                        <li><a href="/Blog/blog.html">Blog</a></li>
+                        <li><a href="/Contact US/contact-us.html">Contact Us</a></li>
+                        <li><a href="/FAQS/faqs.html" class="active">Faq's</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+            <div id="mySidenav" class="sidenav">
+                <span class="mobile-topbg"></span>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="our-work.html">Our Work</a>
+                <a href="spotlight.html">Spotlight</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="faqs.html">Faq's</a>
+                <span class="mobile-bottombg"></span>
+            </div>
+            <div class="mobile-nav">
+                <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <span class="mobile-logo"><img src="/immggg.png" alt=""></span>
+            </div>
+        </div>
+        <!-- End mobile menu -->
+
+
+    </header>
+    <!-- End Header section -->
+    <section class="minislider">
+        <div class="container">
+            <div id="messenger"></div>
+        </div>
+    </section>
+    <!-- start minislider section -->
+
+    <!-- End minislider section -->
+
+    <!-- start contact section -->
+    <section class="lightpinkbg padd-40">
+        <div class="container">
+            <div class="contact-area" data-aos="fade-down">
+                <p>Our squad is more than happy to answer all your questions, lets get in touch!</p>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->
+
+    <!-- start form section -->
+    <section class="common-pd m-none">
+        <div class="container">
+            <div class="contactform" data-aos="fade-down">
+                <form action="form/send.php" method="post" data-email-subject="Enquiry from Website Shaadisquad.com: Contact Form" data-show-errors="true" class="comment-form contactForm validateIt ct-u-paddingTop50">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <input type="text" name="field[]" placeholder="Full Name" required="">
+                            <input type="text" name="field[]" placeholder="Partner's Full Name" required="">
+                            <input type="email" name="field[]" placeholder="Email ID" required="">
+                            <input type="tel" name="field[]" placeholder="Contact Number" required="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                            <input type="text" name="field[]" placeholder="Resident City" required="">
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <input type="text" name="field[]" placeholder="Tentative wedding dates" required="">
+                            <input type="text" name="field[]" placeholder="Shortlisted destination and/or venues" required="">
+                            <input type="text" name="field[]" placeholder="Approximate guest size" required="">
+                            <textarea name="field[]" id="" cols="5" rows="" placeholder="Additional information (if any)" required=""></textarea>
+                            <div class="line-area">
+                                <span class="line1"></span>
+                                <span class="line2"></span>
+                                <span class="line3"></span>
+                            </div>
+                            <button class="submitbtn" type="submit" value="SUBMIT">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+                <div style="display:none" class="successMessage alert alert-success ct-u-marginTop15">
+                    <p style="background: #faf0ee; color: #000; padding:5px 15px;">Thank you for contacting us, we will be in touch with you shortly!</p>
+                </div>
+                <div style="display:none" class="errorMessage alert alert-danger ct-u-marginTop15">
+                    <button type="button" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <p>Ups! An error occured. Please try again later.</p>
+                </div>
+                <p class="form-messege"></p>
+            </div>
+        </div>
+    </section>
+    <!-- End form section -->
+
+    <!-- start contact info and map section -->
+    <section class="lightpinkbg common-pd whitebg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="contactinfo" data-aos="fade-left">
+                        <p><a href="tel:+919405042893"><i class="fa fa-phone"></i> +91 9405042893</a></p>
+                        <p><a href="mailto:happymomentsbusiness13@gmail.com"><i class="fa fa-users"></i> harshmumbai1927@gmail.com</a></p>
+                        <p><a href="mailto:happymomentsbusiness13@gmail.com"><i class="fa fa-envelope"></i> happymomentsbusiness13@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="maparea" data-aos="fade-right">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.346173299055!2d72.90900817387426!3d19.048511552837514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c5f39a7d77d1%3A0x9ebbdeaea9ec24ae!2sShah%20%26%20Anchor%20Kutchhi%20Engineering%20College!5e0!3m2!1sen!2sin!4v1713103217048!5m2!1sen!2sin"
+                            allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact info and map section -->
+
+    <!-- mobile for contact form -->
+    <section class="common-pd d-none lightpinkbg">
+        <div class="container">
+            <div class="contactform mobilecontactform" data-aos="fade-down">
+                <form action="form/send.php" method="post" data-email-subject="Enquiry from Website HappyMoments.com: Contact Form" data-show-errors="true" class="comment-form contactForm validateIt ct-u-paddingTop50">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <input type="text" name="field[]" placeholder="Full Name" required="">
+                            <!-- <input type="text" name="field[]" placeholder="Partner's Full Name" required=""> -->
+                            <input type="email" name="field[]" placeholder="Email ID" required="">
+                            <input type="tel" name="field[]" placeholder="Contact Number" required="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                            <input type="text" name="field[]" placeholder="Resident City" required="">
+                            <input type="text" name="field[]" placeholder="Tentative birthday dates" required="">
+                            <input type="text" name="field[]" placeholder="Shortlisted destination and/or venues" required="">
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- <input type="text" name="field[]" placeholder="Approximate guest size" required=""> -->
+                            <textarea name="field[]" id="" cols="5" rows="" placeholder="Additional information (if any)" required=""></textarea>
+                            <button class="submitbtn" type="submit" value="SUBMIT">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+                <div style="display:none; margin-top:18px; text-align: center; border: none; width: auto;" class="successMessage alert alert-success ct-u-marginTop15">
+                    <p style="background: #faf0ee; color: #000; padding:5px 15px;">Thank you for contacting us, we will be in touch with you shortly!</p>
+                </div>
+                <div style="display:none" class="errorMessage alert alert-danger ct-u-marginTop15">
+                    <button type="button" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <p>Ups! An error occured. Please try again later.</p>
+                </div>
+                <p class="form-messege"></p>
+            </div>
+        </div>
+    </section>
+    <!-- End contact form for mobile -->
+
+   <!-- Footer section start -->
+   <footer class="footerbg m-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <div class="footerlogo">
+                    <img src="/immggg 1111.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p> Mahavir Education<br> Trust Chowk,<br> W.T Patil Marg<br>  D P Rd, next to <br> Duke's Company<br>  Chembur, Mumbai<br> Maharashtra 400088</p>
+                    <p><a href="tel:+919405042893"><i class="fa fa-phone"></i> +91 9405042893</a></p>
+                    <p><a href="mailto:happymomentsbusiness13@gmail.com"><i class="fa fa-envelope"></i> happymomentsbusiness13@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="footer-box">
+                    <h3>Menu</h3>
+                    <ul class="footerlink">
+                        <li><a href="/Home Page/index.html">Home</a></li>
+                        <li><a href="/About US SHAADI SQUAD/aboutus.html">About Us</a></li>
+                        <li><a href="/Service Shaadi Squad/services.html">Services</a></li>
+                        <li><a href="">Our Work</a></li>
+                    </ul>
+                    <ul class="footerlink">
+                        <li><a href="/Blog/blog.html">Blog</a></li>
+                        <li><a href="">Spotlight</a></li>
+                        <li><a href="/Contact US Shaadi/contact-us.html">Contact Us</a></li>
+                        <li><a href="/FAQS/faqs.html">Faq's</a></li>
+                    </ul>
+
+                    <ul class="social-icon">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Happy_moments13?t=BL48PQcDyxo4EIOtQQIkdw&s=08" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/happy_moments_05/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="footerbg d-none text-center footerbgNew">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="footer-box">
+                    <div class="social-inline">
+                        <p><a href="tel:+919405042893"><i class="fa fa-phone"></i> +91 9405042893</a></p>
+                        <p><a href="mailto:happymomentsbusiness13@gmail.com"><i class="fa fa-envelope"></i> happymomentsbusiness13@gmail.com</a></p>
+                    </div>
+                    <p style="display: table; margin:auto;">B21, Aashray Bungalow, <br> 2nd floor, Anand Vihar society, <br> Opp. Meraki Salon & Spa, <br> Lane of Satnam Sakshi Temple, <br> Khar West, <br> Mumbai - 400 052</p>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="footer-box">
+                    <ul class="social-icon">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Happy_moments13?t=BL48PQcDyxo4EIOtQQIkdw&s=08" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/happy_moments_05/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- End Footer section -->
+    <!--Start of scroll to top button-->
+    <div class='scrolltop'>
+        <div class='scroll icon'><i class="fa fa-angle-up"></i></div>
+    </div>
+    <!--End of scroll to top button-->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src='js/zepto.min.js'></script>
+    <script src="js/contactus.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById('mySidenav').style.width = '50%';
+        }
+
+        function closeNav() {
+            document.getElementById('mySidenav').style.width = '0';
+        }
+    </script>
+
+    <script>
+        var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?61042';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#00e785",
+                "ctaText": "Chat with us",
+                "borderRadius": "25",
+                "marginLeft": "0",
+                "marginRight": "20",
+                "marginBottom": "20",
+                "ctaIconWATI": false,
+                "position": "right"
+            },
+            "brandSetting": {
+                "brandName": "Shaadi Squad",
+                "brandSubTitle": "undefined",
+                "brandImg": "https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+                "welcomeText": "Hi there!\nHow can we help you?",
+                "messageText": "Hello, %0A I am interested in the services you offer.",
+                "backgroundColor": "#00e785",
+                "ctaText": "Chat with us",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "919405042893"
+            }
+        };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
+</body>
+
+</html>
